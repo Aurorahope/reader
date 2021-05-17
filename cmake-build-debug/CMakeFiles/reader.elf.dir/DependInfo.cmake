@@ -37,6 +37,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/F4/reader/Core/Src/system_stm32f1xx.c" "D:/F4/reader/cmake-build-debug/CMakeFiles/reader.elf.dir/Core/Src/system_stm32f1xx.c.obj"
   "D:/F4/reader/Core/Src/tim.c" "D:/F4/reader/cmake-build-debug/CMakeFiles/reader.elf.dir/Core/Src/tim.c.obj"
   "D:/F4/reader/Core/Src/usart.c" "D:/F4/reader/cmake-build-debug/CMakeFiles/reader.elf.dir/Core/Src/usart.c.obj"
+  "D:/F4/reader/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c" "D:/F4/reader/cmake-build-debug/CMakeFiles/reader.elf.dir/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.obj"
   "D:/F4/reader/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" "D:/F4/reader/cmake-build-debug/CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
   "D:/F4/reader/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" "D:/F4/reader/cmake-build-debug/CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
   "D:/F4/reader/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" "D:/F4/reader/cmake-build-debug/CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"

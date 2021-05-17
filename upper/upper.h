@@ -22,6 +22,7 @@ extern uint16_t tid_flag,write_flag,epc_write[12],mode_flag;
 void UpperWrite(uint8_t *data, uint8_t len) ;
 unsigned int uiCrc16Cal(unsigned char const  * pucY, unsigned char ucX) ;
 void upper_back(uint8_t command) ;
+void upper_back_w() ;
 void upper_get();
 
 

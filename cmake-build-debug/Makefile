@@ -357,6 +357,33 @@ Core/Src/usart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reader.elf.dir\build.make CMakeFiles/reader.elf.dir/Core/Src/usart.c.s
 .PHONY : Core/Src/usart.c.s
 
+Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.obj: Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.obj
+
+.PHONY : Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.obj
+
+# target to build an object file
+Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\reader.elf.dir\build.make CMakeFiles/reader.elf.dir/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.obj
+.PHONY : Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.obj
+
+Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.i: Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.i
+
+.PHONY : Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.i
+
+# target to preprocess a source file
+Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\reader.elf.dir\build.make CMakeFiles/reader.elf.dir/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.i
+.PHONY : Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.i
+
+Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.s: Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.s
+
+.PHONY : Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.s
+
+# target to generate assembly for a file
+Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\reader.elf.dir\build.make CMakeFiles/reader.elf.dir/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.s
+.PHONY : Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.s
+
 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
 
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj
@@ -912,6 +939,9 @@ help:
 	@echo ... Core/Src/usart.obj
 	@echo ... Core/Src/usart.i
 	@echo ... Core/Src/usart.s
+	@echo ... Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.obj
+	@echo ... Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.i
+	@echo ... Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.s
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.i
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.s

@@ -60,7 +60,7 @@ PUTCHAR_PROTOTYPE {
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-uint8_t upper_time = 0, t, star_rfid = 0;
+uint8_t upper_time = 0, t, star_rfid = 0, wireless, key, wireless_t, wireless_t_flag;
 uint16_t wait = 0, m, reset, reset_set = 0, reset_time = 0, ti, tim, im;
 /* USER CODE END PV */
 
@@ -105,9 +105,9 @@ int main(void) {
     MX_TIM1_Init();
     /* USER CODE BEGIN 2 */
     HAL_GPIO_WritePin(module_reset_GPIO_Port, module_reset_Pin, GPIO_PIN_RESET);
-    mode=FLASH_EEPROM_Read();
-    if (mode>30)
-        mode=30;
+    mode = FLASH_EEPROM_Read();
+    if (mode > 30)
+        mode = 30;
     HAL_Delay(50);
     HAL_GPIO_WritePin(LED2_GPIO_Port, LED2_Pin, GPIO_PIN_SET);
     HAL_GPIO_WritePin(LED3_GPIO_Port, LED3_Pin, GPIO_PIN_SET);
@@ -119,7 +119,24 @@ int main(void) {
     /* Infinite loop */
     /* USER CODE BEGIN WHILE */
     while (1) {
-        if (upper_flag == 1) {
+        wireless = HAL_GPIO_ReadPin(KEY_MODE_GPIO_Port, KEY_MODE_Pin);
+        key = HAL_GPIO_ReadPin(KEY_GPIO_Port, KEY_Pin);
+        if (wireless == 1) {
+            if (star_rfid == 0) {
+                HAL_TIM_Base_Start_IT(&htim1);
+                star_rfid = 1;
+            }
+            if (key == 0 && wireless_t_flag == 0) {
+                wireless_t = 1;
+                wireless_t_flag=1;
+            } else if (key == 1) {
+                wireless_t_flag=0;
+            }
+            if (wireless_t == 1){
+                upper_back_w();
+                wireless_t = 0;
+            }
+        } else if (upper_flag == 1 && wireless == 1) {
             if (star_rfid == 0) {
                 HAL_TIM_Base_Start_IT(&htim1);
                 star_rfid = 1;
@@ -189,11 +206,11 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
             HAL_Delay(5);
             ti++;
         }
-        if (mode_flag==1) {
+        if (mode_flag == 1) {
             FLASH_EEPROM_Write(mode);
-            mode=FLASH_EEPROM_Read();
+            mode = FLASH_EEPROM_Read();
         }
-        mode_flag=0;
+        mode_flag = 0;
 
         empty_flag = 0;
     }

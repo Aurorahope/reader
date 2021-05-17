@@ -179,9 +179,22 @@ CMakeFiles/reader.elf.dir/Core/Src/usart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/reader.elf.dir/Core/Src/usart.c.s"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\F4\reader\Core\Src\usart.c -o CMakeFiles\reader.elf.dir\Core\Src\usart.c.s
 
+CMakeFiles/reader.elf.dir/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.obj: CMakeFiles/reader.elf.dir/flags.make
+CMakeFiles/reader.elf.dir/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.obj: ../Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/reader.elf.dir/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.obj"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\reader.elf.dir\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\system_stm32f1xx.c.obj -c D:\F4\reader\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\system_stm32f1xx.c
+
+CMakeFiles/reader.elf.dir/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/reader.elf.dir/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.i"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\F4\reader\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\system_stm32f1xx.c > CMakeFiles\reader.elf.dir\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\system_stm32f1xx.c.i
+
+CMakeFiles/reader.elf.dir/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/reader.elf.dir/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.s"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\F4\reader\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\system_stm32f1xx.c -o CMakeFiles\reader.elf.dir\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\system_stm32f1xx.c.s
+
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/reader.elf.dir/flags.make
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\reader.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj -c D:\F4\reader\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c
 
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i: cmake_force
@@ -194,7 +207,7 @@ CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s: cm
 
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/reader.elf.dir/flags.make
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\reader.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj -c D:\F4\reader\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c
 
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i: cmake_force
@@ -207,7 +220,7 @@ CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.
 
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/reader.elf.dir/flags.make
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\reader.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj -c D:\F4\reader\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c
 
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i: cmake_force
@@ -220,7 +233,7 @@ CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.s
 
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/reader.elf.dir/flags.make
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\reader.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj -c D:\F4\reader\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c
 
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i: cmake_force
@@ -233,7 +246,7 @@ CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.
 
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/reader.elf.dir/flags.make
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\reader.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj -c D:\F4\reader\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c
 
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i: cmake_force
@@ -246,7 +259,7 @@ CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
 
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/reader.elf.dir/flags.make
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\reader.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj -c D:\F4\reader\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c
 
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i: cmake_force
@@ -259,7 +272,7 @@ CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_e
 
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/reader.elf.dir/flags.make
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\reader.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj -c D:\F4\reader\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c
 
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i: cmake_force
@@ -272,7 +285,7 @@ CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.
 
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/reader.elf.dir/flags.make
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\reader.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj -c D:\F4\reader\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c
 
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i: cmake_force
@@ -285,7 +298,7 @@ CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex
 
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/reader.elf.dir/flags.make
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\reader.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj -c D:\F4\reader\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c
 
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i: cmake_force
@@ -298,7 +311,7 @@ CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s
 
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/reader.elf.dir/flags.make
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\reader.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj -c D:\F4\reader\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c
 
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i: cmake_force
@@ -311,7 +324,7 @@ CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s
 
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/reader.elf.dir/flags.make
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\reader.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj -c D:\F4\reader\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c
 
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i: cmake_force
@@ -324,7 +337,7 @@ CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.
 
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: CMakeFiles/reader.elf.dir/flags.make
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\reader.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj -c D:\F4\reader\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c
 
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i: cmake_force
@@ -337,7 +350,7 @@ CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.s
 
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: CMakeFiles/reader.elf.dir/flags.make
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\reader.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj -c D:\F4\reader\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c
 
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i: cmake_force
@@ -350,7 +363,7 @@ CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.
 
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: CMakeFiles/reader.elf.dir/flags.make
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\reader.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj -c D:\F4\reader\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c
 
 CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i: cmake_force
@@ -363,7 +376,7 @@ CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.
 
 CMakeFiles/reader.elf.dir/card/card.c.obj: CMakeFiles/reader.elf.dir/flags.make
 CMakeFiles/reader.elf.dir/card/card.c.obj: ../card/card.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/reader.elf.dir/card/card.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/reader.elf.dir/card/card.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\reader.elf.dir\card\card.c.obj -c D:\F4\reader\card\card.c
 
 CMakeFiles/reader.elf.dir/card/card.c.i: cmake_force
@@ -376,7 +389,7 @@ CMakeFiles/reader.elf.dir/card/card.c.s: cmake_force
 
 CMakeFiles/reader.elf.dir/flash/flash.c.obj: CMakeFiles/reader.elf.dir/flags.make
 CMakeFiles/reader.elf.dir/flash/flash.c.obj: ../flash/flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/reader.elf.dir/flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/reader.elf.dir/flash/flash.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\reader.elf.dir\flash\flash.c.obj -c D:\F4\reader\flash\flash.c
 
 CMakeFiles/reader.elf.dir/flash/flash.c.i: cmake_force
@@ -389,7 +402,7 @@ CMakeFiles/reader.elf.dir/flash/flash.c.s: cmake_force
 
 CMakeFiles/reader.elf.dir/mode/mode.c.obj: CMakeFiles/reader.elf.dir/flags.make
 CMakeFiles/reader.elf.dir/mode/mode.c.obj: ../mode/mode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/reader.elf.dir/mode/mode.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/reader.elf.dir/mode/mode.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\reader.elf.dir\mode\mode.c.obj -c D:\F4\reader\mode\mode.c
 
 CMakeFiles/reader.elf.dir/mode/mode.c.i: cmake_force
@@ -402,12 +415,12 @@ CMakeFiles/reader.elf.dir/mode/mode.c.s: cmake_force
 
 CMakeFiles/reader.elf.dir/startup/startup_stm32f103xb.s.obj: CMakeFiles/reader.elf.dir/flags.make
 CMakeFiles/reader.elf.dir/startup/startup_stm32f103xb.s.obj: ../startup/startup_stm32f103xb.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building ASM object CMakeFiles/reader.elf.dir/startup/startup_stm32f103xb.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building ASM object CMakeFiles/reader.elf.dir/startup/startup_stm32f103xb.s.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\reader.elf.dir\startup\startup_stm32f103xb.s.obj -c D:\F4\reader\startup\startup_stm32f103xb.s
 
 CMakeFiles/reader.elf.dir/uart/usrt.c.obj: CMakeFiles/reader.elf.dir/flags.make
 CMakeFiles/reader.elf.dir/uart/usrt.c.obj: ../uart/usrt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/reader.elf.dir/uart/usrt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/reader.elf.dir/uart/usrt.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\reader.elf.dir\uart\usrt.c.obj -c D:\F4\reader\uart\usrt.c
 
 CMakeFiles/reader.elf.dir/uart/usrt.c.i: cmake_force
@@ -420,7 +433,7 @@ CMakeFiles/reader.elf.dir/uart/usrt.c.s: cmake_force
 
 CMakeFiles/reader.elf.dir/upper/upper.c.obj: CMakeFiles/reader.elf.dir/flags.make
 CMakeFiles/reader.elf.dir/upper/upper.c.obj: ../upper/upper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/reader.elf.dir/upper/upper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/reader.elf.dir/upper/upper.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\reader.elf.dir\upper\upper.c.obj -c D:\F4\reader\upper\upper.c
 
 CMakeFiles/reader.elf.dir/upper/upper.c.i: cmake_force
@@ -441,6 +454,7 @@ reader_elf_OBJECTS = \
 "CMakeFiles/reader.elf.dir/Core/Src/system_stm32f1xx.c.obj" \
 "CMakeFiles/reader.elf.dir/Core/Src/tim.c.obj" \
 "CMakeFiles/reader.elf.dir/Core/Src/usart.c.obj" \
+"CMakeFiles/reader.elf.dir/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.obj" \
 "CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj" \
 "CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj" \
 "CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj" \
@@ -473,6 +487,7 @@ reader.elf: CMakeFiles/reader.elf.dir/Core/Src/syscalls.c.obj
 reader.elf: CMakeFiles/reader.elf.dir/Core/Src/system_stm32f1xx.c.obj
 reader.elf: CMakeFiles/reader.elf.dir/Core/Src/tim.c.obj
 reader.elf: CMakeFiles/reader.elf.dir/Core/Src/usart.c.obj
+reader.elf: CMakeFiles/reader.elf.dir/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.obj
 reader.elf: CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
 reader.elf: CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
 reader.elf: CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
@@ -495,7 +510,7 @@ reader.elf: CMakeFiles/reader.elf.dir/uart/usrt.c.obj
 reader.elf: CMakeFiles/reader.elf.dir/upper/upper.c.obj
 reader.elf: CMakeFiles/reader.elf.dir/build.make
 reader.elf: CMakeFiles/reader.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking C executable reader.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\F4\reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking C executable reader.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\reader.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/F4/reader/cmake-build-debug/reader.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/F4/reader/cmake-build-debug/reader.bin"

@@ -158,6 +158,9 @@
 		<Unit filename="D:/F4/reader/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
 			<Option target="reader.elf"/>
 		</Unit>
+		<Unit filename="D:/F4/reader/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c">
+			<Option target="reader.elf"/>
+		</Unit>
 		<Unit filename="D:/F4/reader/Drivers/CMSIS/Include/cmsis_armcc.h">
 			<Option target="reader.elf"/>
 		</Unit>
