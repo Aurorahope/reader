@@ -1,0 +1,3 @@
+D:/F4/reader/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/F4/reader/cmake-build-debug/CMakeFiles/reader.elf.dir
+D:/F4/reader/cmake-build-debug/CMakeFiles/edit_cache.dir
