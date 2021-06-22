@@ -60,8 +60,8 @@ PUTCHAR_PROTOTYPE {
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-uint8_t upper_time = 0, t, star_rfid = 0, wireless, key, wireless_t, wireless_t_flag;
-uint16_t wait = 0, m, reset, reset_set = 0, reset_time = 0, ti, tim, im;
+uint8_t upper_time = 0, t, star_rfid = 0, wireless, key, ticks=0;
+uint16_t wait = 0, m, reset, reset_set = 0, reset_time = 0, ti, tim;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -130,19 +130,13 @@ int main(void)
                 HAL_TIM_Base_Start_IT(&htim1);
                 star_rfid = 1;
             }
-//            if (key == 0 && wireless_t_flag == 0) {
-//                wireless_t = 1;
-//                wireless_t_flag=1;
-//            } else if (key == 1) {
-//                wireless_t_flag=0;
-//            }
             if (key == 0){
                 if(empty==1)
                     HAL_GPIO_WritePin(BEEP_GPIO_Port,BEEP_Pin,GPIO_PIN_SET);
                 upper_back_w();
-                wireless_t = 0;
-
-                HAL_Delay(100);
+                HAL_Delay(30);
+                HAL_GPIO_WritePin(BEEP_GPIO_Port,BEEP_Pin,GPIO_PIN_RESET);
+                HAL_Delay(20);
             }
         } else if (upper_flag == 1 && wireless == 0) {
             if (star_rfid == 0) {
@@ -212,20 +206,26 @@ void SystemClock_Config(void)
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
     if (htim->Instance == htim1.Instance) {
         ti = 0;
+        ticks++;
+        if (ticks>=5)
+        {
+            ID_Read();
+            ticks=0;
+        }
         while (empty_flag == 0 && ti < 20) {
             ID_Read();
             HAL_Delay(5);
             ti++;
         }
-        if (mode_flag == 1) {
+        if (mode_flag==1) {
             FLASH_EEPROM_Write(mode);
-            mode = FLASH_EEPROM_Read();
+            mode=FLASH_EEPROM_Read();
+            __set_FAULTMASK(1);
+            NVIC_SystemReset();
         }
-        mode_flag = 0;
-
+        mode_flag=0;
         empty_flag = 0;
-    }
-}
+    }}
 /* USER CODE END 4 */
 
 /**

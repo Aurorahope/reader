@@ -35,50 +35,92 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: E:/C++_project/reader/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/msys2/mingw64/bin/mingw32-make.exe cmTC_6debc/fast && D:/msys2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6debc.dir\build.make CMakeFiles/cmTC_6debc.dir/build
-mingw32-make[1]: Entering directory 'E:/C++_project/reader/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6debc.dir/CMakeCCompilerABI.c.obj
-C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE   -v -o CMakeFiles\cmTC_6debc.dir\CMakeCCompilerABI.c.obj -c C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c
-Using built-in specs.
-COLLECT_GCC=C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE
-Target: arm-none-eabi
-Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 9-2020-q2-update' --with-multilib-list=rmprofile,aprofile
-Thread model: single
-gcc version 9.3.1 20200408 (release) (GNU Arm Embedded Toolchain 9-2020-q2-update) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_6debc.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
- c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/cc1.exe -quiet -v -iprefix c:\progra~2\gnuarm~1\92020-~1\bin\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot c:\progra~2\gnuarm~1\92020-~1\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_6debc.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\lenovo\AppData\Local\Temp\ccRf20he.s
-GNU C17 (GNU Arm Embedded Toolchain 9-2020-q2-update) version 9.3.1 20200408 (release) (arm-none-eabi)
-	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
-
-GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring duplicate directory "c:/progra~2/gnuarm~1/92020-~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include"
-ignoring nonexistent directory "c:\progra~2\gnuarm~1\92020-~1\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/lib/gcc/arm-none-eabi/9.3.1/../../../../include"
-ignoring duplicate directory "c:/progra~2/gnuarm~1/92020-~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include-fixed"
-ignoring duplicate directory "c:/progra~2/gnuarm~1/92020-~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"
-ignoring nonexistent directory "c:\progra~2\gnuarm~1\92020-~1\bin\../arm-none-eabi/usr/include"
-#include "..." search starts here:
-#include <...> search starts here:
- c:\progra~2\gnuarm~1\92020-~1\bin\../lib/gcc/arm-none-eabi/9.3.1/include
- c:\progra~2\gnuarm~1\92020-~1\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed
- c:\progra~2\gnuarm~1\92020-~1\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include
-End of search list.
-GNU C17 (GNU Arm Embedded Toolchain 9-2020-q2-update) version 9.3.1 20200408 (release) (arm-none-eabi)
-	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
-
-GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-Compiler executable checksum: d18b46d535a7d663cef45eb261f67f75
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_6debc.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
- c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_6debc.dir\CMakeCCompilerABI.c.obj C:\Users\lenovo\AppData\Local\Temp\ccRf20he.s
-GNU assembler version 2.34.0 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 9-2020-q2-update) 2.34.0.20200428
-COMPILER_PATH=c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/;c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/
-LIBRARY_PATH=c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/;c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/92020-~1/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_6debc.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
-Linking C static library libcmTC_6debc.a
-C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe -P CMakeFiles\cmTC_6debc.dir\cmake_clean_target.cmake
-C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_6debc.dir\link.txt --verbose=1
-arm-none-eabi-ar qc libcmTC_6debc.a CMakeFiles/cmTC_6debc.dir/CMakeCCompilerABI.c.obj
-C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR17F9~1.EXE libcmTC_6debc.a
-mingw32-make[1]: Leaving directory 'E:/C++_project/reader/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):D:/msys2/mingw64/bin/mingw32-make.exe cmTC_452ab/fast && D:/msys2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_452ab.dir\build.make CMakeFiles/cmTC_452ab.dir/build
+
+mingw32-make[1]: Entering directory 'E:/C++_project/reader/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Building C object CMakeFiles/cmTC_452ab.dir/CMakeCCompilerABI.c.obj
+
+C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE   -v -o CMakeFiles\cmTC_452ab.dir\CMakeCCompilerABI.c.obj -c C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c
+
+Using built-in specs.
+
+COLLECT_GCC=C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE
+
+Target: arm-none-eabi
+
+Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 9-2020-q2-update' --with-multilib-list=rmprofile,aprofile
+
+Thread model: single
+
+gcc version 9.3.1 20200408 (release) (GNU Arm Embedded Toolchain 9-2020-q2-update) 
+
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_452ab.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+
+ c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/cc1.exe -quiet -v -iprefix c:\progra~2\gnuarm~1\92020-~1\bin\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot c:\progra~2\gnuarm~1\92020-~1\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_452ab.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\lenovo\AppData\Local\Temp\ccklNKF3.s
+
+GNU C17 (GNU Arm Embedded Toolchain 9-2020-q2-update) version 9.3.1 20200408 (release) (arm-none-eabi)
+
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+
+ignoring duplicate directory "c:/progra~2/gnuarm~1/92020-~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include"
+
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\92020-~1\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/lib/gcc/arm-none-eabi/9.3.1/../../../../include"
+
+ignoring duplicate directory "c:/progra~2/gnuarm~1/92020-~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include-fixed"
+
+ignoring duplicate directory "c:/progra~2/gnuarm~1/92020-~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"
+
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\92020-~1\bin\../arm-none-eabi/usr/include"
+
+#include "..." search starts here:
+
+#include <...> search starts here:
+
+ c:\progra~2\gnuarm~1\92020-~1\bin\../lib/gcc/arm-none-eabi/9.3.1/include
+
+ c:\progra~2\gnuarm~1\92020-~1\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed
+
+ c:\progra~2\gnuarm~1\92020-~1\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include
+
+End of search list.
+
+GNU C17 (GNU Arm Embedded Toolchain 9-2020-q2-update) version 9.3.1 20200408 (release) (arm-none-eabi)
+
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+
+Compiler executable checksum: d18b46d535a7d663cef45eb261f67f75
+
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_452ab.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+
+ c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_452ab.dir\CMakeCCompilerABI.c.obj C:\Users\lenovo\AppData\Local\Temp\ccklNKF3.s
+
+GNU assembler version 2.34.0 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 9-2020-q2-update) 2.34.0.20200428
+
+COMPILER_PATH=c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/;c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/
+
+LIBRARY_PATH=c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/;c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/92020-~1/bin/../arm-none-eabi/lib/
+
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_452ab.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+
+Linking C static library libcmTC_452ab.a
+
+C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe -P CMakeFiles\cmTC_452ab.dir\cmake_clean_target.cmake
+
+C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_452ab.dir\link.txt --verbose=1
+
+arm-none-eabi-ar qc libcmTC_452ab.a CMakeFiles/cmTC_452ab.dir/CMakeCCompilerABI.c.obj
+C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR17F9~1.EXE libcmTC_452ab.a
+mingw32-make[1]: Leaving directory 'E:/C++_project/reader/cmake-build-debug/CMakeFiles/CMakeTmp'
+
 
 
 
@@ -99,18 +141,18 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: E:/C++_project/reader/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):D:/msys2/mingw64/bin/mingw32-make.exe cmTC_6debc/fast && D:/msys2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6debc.dir\build.make CMakeFiles/cmTC_6debc.dir/build]
+  ignore line: [Run Build Command(s):D:/msys2/mingw64/bin/mingw32-make.exe cmTC_452ab/fast && D:/msys2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_452ab.dir\build.make CMakeFiles/cmTC_452ab.dir/build]
   ignore line: [mingw32-make[1]: Entering directory 'E:/C++_project/reader/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_6debc.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE   -v -o CMakeFiles\cmTC_6debc.dir\CMakeCCompilerABI.c.obj -c C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c]
+  ignore line: [Building C object CMakeFiles/cmTC_452ab.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE   -v -o CMakeFiles\cmTC_452ab.dir\CMakeCCompilerABI.c.obj -c C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR19DD~1.EXE]
   ignore line: [Target: arm-none-eabi]
   ignore line: [Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 9-2020-q2-update' --with-multilib-list=rmprofile,aprofile]
   ignore line: [Thread model: single]
   ignore line: [gcc version 9.3.1 20200408 (release) (GNU Arm Embedded Toolchain 9-2020-q2-update) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_6debc.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-  ignore line: [ c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/cc1.exe -quiet -v -iprefix c:\progra~2\gnuarm~1\92020-~1\bin\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot c:\progra~2\gnuarm~1\92020-~1\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_6debc.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\lenovo\AppData\Local\Temp\ccRf20he.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_452ab.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/cc1.exe -quiet -v -iprefix c:\progra~2\gnuarm~1\92020-~1\bin\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot c:\progra~2\gnuarm~1\92020-~1\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_452ab.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\lenovo\AppData\Local\Temp\ccklNKF3.s]
   ignore line: [GNU C17 (GNU Arm Embedded Toolchain 9-2020-q2-update) version 9.3.1 20200408 (release) (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
   ignore line: []
@@ -131,8 +173,8 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: d18b46d535a7d663cef45eb261f67f75]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_6debc.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-  ignore line: [ c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_6debc.dir\CMakeCCompilerABI.c.obj C:\Users\lenovo\AppData\Local\Temp\ccRf20he.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_452ab.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_452ab.dir\CMakeCCompilerABI.c.obj C:\Users\lenovo\AppData\Local\Temp\ccklNKF3.s]
   ignore line: [GNU assembler version 2.34.0 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 9-2020-q2-update) 2.34.0.20200428]
   ignore line: [COMPILER_PATH=c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/]
   ignore line: [c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/]
@@ -141,12 +183,12 @@ Parsed C implicit link information from above output:
   ignore line: [c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/]
   ignore line: [c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/]
   ignore line: [c:/progra~2/gnuarm~1/92020-~1/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_6debc.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-  ignore line: [Linking C static library libcmTC_6debc.a]
-  ignore line: [C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe -P CMakeFiles\cmTC_6debc.dir\cmake_clean_target.cmake]
-  ignore line: [C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_6debc.dir\link.txt --verbose=1]
-  ignore line: [arm-none-eabi-ar qc libcmTC_6debc.a CMakeFiles/cmTC_6debc.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR17F9~1.EXE libcmTC_6debc.a]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_452ab.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [Linking C static library libcmTC_452ab.a]
+  ignore line: [C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe -P CMakeFiles\cmTC_452ab.dir\cmake_clean_target.cmake]
+  ignore line: [C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_452ab.dir\link.txt --verbose=1]
+  ignore line: [arm-none-eabi-ar qc libcmTC_452ab.a CMakeFiles/cmTC_452ab.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR17F9~1.EXE libcmTC_452ab.a]
   ignore line: [mingw32-make[1]: Leaving directory 'E:/C++_project/reader/cmake-build-debug/CMakeFiles/CMakeTmp']
   ignore line: []
   ignore line: []
@@ -158,56 +200,104 @@ Parsed C implicit link information from above output:
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: E:/C++_project/reader/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/msys2/mingw64/bin/mingw32-make.exe cmTC_edebf/fast && D:/msys2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_edebf.dir\build.make CMakeFiles/cmTC_edebf.dir/build
-mingw32-make[1]: Entering directory 'E:/C++_project/reader/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_edebf.dir/CMakeCXXCompilerABI.cpp.obj
-C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR10B2~1.EXE   -v -o CMakeFiles\cmTC_edebf.dir\CMakeCXXCompilerABI.cpp.obj -c C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp
-Using built-in specs.
-COLLECT_GCC=C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR10B2~1.EXE
-Target: arm-none-eabi
-Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 9-2020-q2-update' --with-multilib-list=rmprofile,aprofile
-Thread model: single
-gcc version 9.3.1 20200408 (release) (GNU Arm Embedded Toolchain 9-2020-q2-update) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_edebf.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
- c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/cc1plus.exe -quiet -v -iprefix c:\progra~2\gnuarm~1\92020-~1\bin\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot c:\progra~2\gnuarm~1\92020-~1\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_edebf.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\lenovo\AppData\Local\Temp\ccM0n7SK.s
-GNU C++14 (GNU Arm Embedded Toolchain 9-2020-q2-update) version 9.3.1 20200408 (release) (arm-none-eabi)
-	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
-
-GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring duplicate directory "c:/progra~2/gnuarm~1/92020-~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"
-ignoring duplicate directory "c:/progra~2/gnuarm~1/92020-~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"
-ignoring duplicate directory "c:/progra~2/gnuarm~1/92020-~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"
-ignoring duplicate directory "c:/progra~2/gnuarm~1/92020-~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include"
-ignoring nonexistent directory "c:\progra~2\gnuarm~1\92020-~1\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/lib/gcc/arm-none-eabi/9.3.1/../../../../include"
-ignoring duplicate directory "c:/progra~2/gnuarm~1/92020-~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include-fixed"
-ignoring duplicate directory "c:/progra~2/gnuarm~1/92020-~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"
-ignoring nonexistent directory "c:\progra~2\gnuarm~1\92020-~1\bin\../arm-none-eabi/usr/include"
-#include "..." search starts here:
-#include <...> search starts here:
- c:\progra~2\gnuarm~1\92020-~1\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1
- c:\progra~2\gnuarm~1\92020-~1\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi
- c:\progra~2\gnuarm~1\92020-~1\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward
- c:\progra~2\gnuarm~1\92020-~1\bin\../lib/gcc/arm-none-eabi/9.3.1/include
- c:\progra~2\gnuarm~1\92020-~1\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed
- c:\progra~2\gnuarm~1\92020-~1\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include
-End of search list.
-GNU C++14 (GNU Arm Embedded Toolchain 9-2020-q2-update) version 9.3.1 20200408 (release) (arm-none-eabi)
-	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
-
-GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-Compiler executable checksum: 7a1ab17ae8404f635d46188cccacd8be
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_edebf.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
- c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_edebf.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\lenovo\AppData\Local\Temp\ccM0n7SK.s
-GNU assembler version 2.34.0 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 9-2020-q2-update) 2.34.0.20200428
-COMPILER_PATH=c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/;c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/
-LIBRARY_PATH=c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/;c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/92020-~1/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_edebf.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
-Linking CXX static library libcmTC_edebf.a
-C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe -P CMakeFiles\cmTC_edebf.dir\cmake_clean_target.cmake
-C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_edebf.dir\link.txt --verbose=1
-arm-none-eabi-ar qc libcmTC_edebf.a CMakeFiles/cmTC_edebf.dir/CMakeCXXCompilerABI.cpp.obj
-C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR17F9~1.EXE libcmTC_edebf.a
-mingw32-make[1]: Leaving directory 'E:/C++_project/reader/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):D:/msys2/mingw64/bin/mingw32-make.exe cmTC_9b015/fast && D:/msys2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_9b015.dir\build.make CMakeFiles/cmTC_9b015.dir/build
+
+mingw32-make[1]: Entering directory 'E:/C++_project/reader/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Building CXX object CMakeFiles/cmTC_9b015.dir/CMakeCXXCompilerABI.cpp.obj
+
+C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR10B2~1.EXE   -v -o CMakeFiles\cmTC_9b015.dir\CMakeCXXCompilerABI.cpp.obj -c C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp
+
+Using built-in specs.
+
+COLLECT_GCC=C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR10B2~1.EXE
+
+Target: arm-none-eabi
+
+Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 9-2020-q2-update' --with-multilib-list=rmprofile,aprofile
+
+Thread model: single
+
+gcc version 9.3.1 20200408 (release) (GNU Arm Embedded Toolchain 9-2020-q2-update) 
+
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_9b015.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+
+ c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/cc1plus.exe -quiet -v -iprefix c:\progra~2\gnuarm~1\92020-~1\bin\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot c:\progra~2\gnuarm~1\92020-~1\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_9b015.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\lenovo\AppData\Local\Temp\cc5CV9HN.s
+
+GNU C++14 (GNU Arm Embedded Toolchain 9-2020-q2-update) version 9.3.1 20200408 (release) (arm-none-eabi)
+
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+
+ignoring duplicate directory "c:/progra~2/gnuarm~1/92020-~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"
+
+ignoring duplicate directory "c:/progra~2/gnuarm~1/92020-~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"
+
+ignoring duplicate directory "c:/progra~2/gnuarm~1/92020-~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"
+
+ignoring duplicate directory "c:/progra~2/gnuarm~1/92020-~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include"
+
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\92020-~1\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/lib/gcc/arm-none-eabi/9.3.1/../../../../include"
+
+ignoring duplicate directory "c:/progra~2/gnuarm~1/92020-~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include-fixed"
+
+ignoring duplicate directory "c:/progra~2/gnuarm~1/92020-~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"
+
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\92020-~1\bin\../arm-none-eabi/usr/include"
+
+#include "..." search starts here:
+
+#include <...> search starts here:
+
+ c:\progra~2\gnuarm~1\92020-~1\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1
+
+ c:\progra~2\gnuarm~1\92020-~1\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi
+
+ c:\progra~2\gnuarm~1\92020-~1\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward
+
+ c:\progra~2\gnuarm~1\92020-~1\bin\../lib/gcc/arm-none-eabi/9.3.1/include
+
+ c:\progra~2\gnuarm~1\92020-~1\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed
+
+ c:\progra~2\gnuarm~1\92020-~1\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include
+
+End of search list.
+
+GNU C++14 (GNU Arm Embedded Toolchain 9-2020-q2-update) version 9.3.1 20200408 (release) (arm-none-eabi)
+
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+
+Compiler executable checksum: 7a1ab17ae8404f635d46188cccacd8be
+
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_9b015.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+
+ c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_9b015.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\lenovo\AppData\Local\Temp\cc5CV9HN.s
+
+GNU assembler version 2.34.0 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 9-2020-q2-update) 2.34.0.20200428
+
+COMPILER_PATH=c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/;c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/
+
+LIBRARY_PATH=c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/;c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/;c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/92020-~1/bin/../arm-none-eabi/lib/
+
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_9b015.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+
+Linking CXX static library libcmTC_9b015.a
+
+C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe -P CMakeFiles\cmTC_9b015.dir\cmake_clean_target.cmake
+
+C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_9b015.dir\link.txt --verbose=1
+
+arm-none-eabi-ar qc libcmTC_9b015.a CMakeFiles/cmTC_9b015.dir/CMakeCXXCompilerABI.cpp.obj
+C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR17F9~1.EXE libcmTC_9b015.a
+mingw32-make[1]: Leaving directory 'E:/C++_project/reader/cmake-build-debug/CMakeFiles/CMakeTmp'
+
 
 
 
@@ -234,18 +324,18 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: E:/C++_project/reader/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):D:/msys2/mingw64/bin/mingw32-make.exe cmTC_edebf/fast && D:/msys2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_edebf.dir\build.make CMakeFiles/cmTC_edebf.dir/build]
+  ignore line: [Run Build Command(s):D:/msys2/mingw64/bin/mingw32-make.exe cmTC_9b015/fast && D:/msys2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_9b015.dir\build.make CMakeFiles/cmTC_9b015.dir/build]
   ignore line: [mingw32-make[1]: Entering directory 'E:/C++_project/reader/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_edebf.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR10B2~1.EXE   -v -o CMakeFiles\cmTC_edebf.dir\CMakeCXXCompilerABI.cpp.obj -c C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp]
+  ignore line: [Building CXX object CMakeFiles/cmTC_9b015.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR10B2~1.EXE   -v -o CMakeFiles\cmTC_9b015.dir\CMakeCXXCompilerABI.cpp.obj -c C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR10B2~1.EXE]
   ignore line: [Target: arm-none-eabi]
   ignore line: [Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 9-2020-q2-update' --with-multilib-list=rmprofile,aprofile]
   ignore line: [Thread model: single]
   ignore line: [gcc version 9.3.1 20200408 (release) (GNU Arm Embedded Toolchain 9-2020-q2-update) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_edebf.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-  ignore line: [ c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/cc1plus.exe -quiet -v -iprefix c:\progra~2\gnuarm~1\92020-~1\bin\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot c:\progra~2\gnuarm~1\92020-~1\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_edebf.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\lenovo\AppData\Local\Temp\ccM0n7SK.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_9b015.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/cc1plus.exe -quiet -v -iprefix c:\progra~2\gnuarm~1\92020-~1\bin\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot c:\progra~2\gnuarm~1\92020-~1\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_9b015.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\lenovo\AppData\Local\Temp\cc5CV9HN.s]
   ignore line: [GNU C++14 (GNU Arm Embedded Toolchain 9-2020-q2-update) version 9.3.1 20200408 (release) (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
   ignore line: []
@@ -272,8 +362,8 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 7a1ab17ae8404f635d46188cccacd8be]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_edebf.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-  ignore line: [ c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_edebf.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\lenovo\AppData\Local\Temp\ccM0n7SK.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_9b015.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_9b015.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\lenovo\AppData\Local\Temp\cc5CV9HN.s]
   ignore line: [GNU assembler version 2.34.0 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 9-2020-q2-update) 2.34.0.20200428]
   ignore line: [COMPILER_PATH=c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/]
   ignore line: [c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/]
@@ -282,12 +372,12 @@ Parsed CXX implicit link information from above output:
   ignore line: [c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/]
   ignore line: [c:/progra~2/gnuarm~1/92020-~1/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/]
   ignore line: [c:/progra~2/gnuarm~1/92020-~1/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_edebf.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-  ignore line: [Linking CXX static library libcmTC_edebf.a]
-  ignore line: [C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe -P CMakeFiles\cmTC_edebf.dir\cmake_clean_target.cmake]
-  ignore line: [C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_edebf.dir\link.txt --verbose=1]
-  ignore line: [arm-none-eabi-ar qc libcmTC_edebf.a CMakeFiles/cmTC_edebf.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR17F9~1.EXE libcmTC_edebf.a]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_9b015.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [Linking CXX static library libcmTC_9b015.a]
+  ignore line: [C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe -P CMakeFiles\cmTC_9b015.dir\cmake_clean_target.cmake]
+  ignore line: [C:\Users\lenovo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_9b015.dir\link.txt --verbose=1]
+  ignore line: [arm-none-eabi-ar qc libcmTC_9b015.a CMakeFiles/cmTC_9b015.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\PROGRA~2\GNUARM~1\92020-~1\bin\AR17F9~1.EXE libcmTC_9b015.a]
   ignore line: [mingw32-make[1]: Leaving directory 'E:/C++_project/reader/cmake-build-debug/CMakeFiles/CMakeTmp']
   ignore line: []
   ignore line: []
