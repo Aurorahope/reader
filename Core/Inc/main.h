@@ -70,6 +70,10 @@ void Error_Handler(void);
 #define KEY_GPIO_Port GPIOB
 #define KEY_MODE_Pin GPIO_PIN_6
 #define KEY_MODE_GPIO_Port GPIOB
+#define M1_Pin GPIO_PIN_8
+#define M1_GPIO_Port GPIOB
+#define M0_Pin GPIO_PIN_9
+#define M0_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

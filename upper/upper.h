@@ -24,7 +24,6 @@ unsigned int uiCrc16Cal(unsigned char const  * pucY, unsigned char ucX) ;
 void upper_back(uint8_t command) ;
 void upper_back_w() ;
 void upper_get();
-
-
+uint8_t CheckSum_1(uint8_t *data, uint8_t len) ;
 
 #endif //READER_UPPER_H

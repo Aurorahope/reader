@@ -7,7 +7,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/reader.elf.dir/Core/Src/system_stm32f1xx.c.obj"
   "CMakeFiles/reader.elf.dir/Core/Src/tim.c.obj"
   "CMakeFiles/reader.elf.dir/Core/Src/usart.c.obj"
-  "CMakeFiles/reader.elf.dir/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.obj"
   "CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
   "CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
   "CMakeFiles/reader.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"

@@ -10,6 +10,17 @@
 
 uint16_t write, cRc, tid_flag, write_flag, epc_write[12], epc_tid[24], same, tid_get,mode_flag;
 
+uint8_t CheckSum_1(uint8_t *data, uint8_t len) {
+    uint8_t temp = 0;
+
+    for (int i = 0; i < len - 1; i++) {
+        temp += *data++;
+    }
+
+    return temp;
+}
+
+
 unsigned int uiCrc16Cal(unsigned char const *pucY, unsigned char ucX) {
     unsigned char ucI, ucJ;
     unsigned short int uiCrcValue = PRESET_VALUE;
@@ -48,34 +59,24 @@ void upper_get() {
 }
 
 void upper_back_w() {
-//    uint8_t upper[128];
-//    if (empty == 1) {
-//        upper[0] = 0XAA;
-//        upper[1] = ;
-//        upper[2] = 0X01;
-//        upper[3] = status;
-//        upper[4] = 0x01;
-//        upper[5] = 0X0C;
-//        for (i = 0; i < 12; i++)
-//            upper[6 + i] = EPC[i];
-//        cRc = uiCrc16Cal(upper, digit_back - 2);
-//        upper[18] = GET_LOW_BYTE(cRc);
-//        upper[19] = GET_HIGH_BYTE(cRc);
-//        empty = 0;
-//    } else {
-//        digit_back = 8;
-//        reCmd = 0x01;
-//        status = 0x02;
-//        upper[0] = digit_back - 1;
-//        upper[1] = address_upper;
-//        upper[2] = reCmd;
-//        upper[3] = status;
-//        upper[4] = 0x00;
-//        upper[5] = 0X00;
-//        cRc = uiCrc16Cal(upper, digit_back - 2);
-//        upper[6] = GET_LOW_BYTE(cRc);
-//        upper[7] = GET_HIGH_BYTE(cRc);
-//    }
+    uint8_t upper[128],i,digit_back;
+    if (empty == 1) {
+        digit_back=0X10;
+        upper[0] = 0XAA;
+        upper[1] = digit_back-2;
+        upper[2] = 0X01;
+        for (i = 0; i < 12; i++)
+            upper[3 + i] = EPC[i];
+        upper[15] = CheckSum_1(upper,digit_back);
+        empty = 0;
+    } else {
+        digit_back = 0X04;
+        upper[0] = 0XAA;
+        upper[1] = digit_back-2;
+        upper[2] = 0X01;
+        upper[3] = CheckSum_1(upper,digit_back);
+    }
+    UpperWrite(upper, digit_back);
 }
 
 
