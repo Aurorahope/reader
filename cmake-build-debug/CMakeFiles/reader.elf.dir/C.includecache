@@ -82,10 +82,6 @@ stm32f1xx_hal_hcd.h
 stm32f1xx_hal_mmc.h
 ../Core/Inc/stm32f1xx_hal_mmc.h
 
-../Core/Inc/tim.h
-main.h
-../Core/Inc/main.h
-
 ../Core/Inc/usart.h
 main.h
 ../Core/Inc/main.h
@@ -286,33 +282,17 @@ mode.h
 upper.h
 ../uart/upper.h
 
-../upper/upper.h
-stm32f1xx_hal.h
-../upper/stm32f1xx_hal.h
-usrt.h
-../upper/usrt.h
-card.h
-../upper/card.h
-flash.h
-../upper/flash.h
-
-D:/F4/reader/Core/Src/main.c
-main.h
-D:/F4/reader/Core/Src/main.h
-tim.h
-D:/F4/reader/Core/Src/tim.h
-usart.h
-D:/F4/reader/Core/Src/usart.h
-gpio.h
-D:/F4/reader/Core/Src/gpio.h
-card.h
-D:/F4/reader/Core/Src/card.h
-mode.h
-D:/F4/reader/Core/Src/mode.h
-usrt.h
-D:/F4/reader/Core/Src/usrt.h
+E:/C++_project/reader/upper/upper.c
 upper.h
-D:/F4/reader/Core/Src/upper.h
+E:/C++_project/reader/upper/upper.h
+
+E:/C++_project/reader/upper/upper.h
+stm32f1xx_hal.h
+E:/C++_project/reader/upper/stm32f1xx_hal.h
+usrt.h
+E:/C++_project/reader/upper/usrt.h
+card.h
+E:/C++_project/reader/upper/card.h
 flash.h
-D:/F4/reader/Core/Src/flash.h
+E:/C++_project/reader/upper/flash.h
 

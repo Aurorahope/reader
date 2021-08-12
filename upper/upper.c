@@ -8,7 +8,8 @@
 #define PRESET_VALUE 0xFFFF
 #define POLYNOMIAL  0x8408
 
-uint16_t write, cRc, tid_flag, write_flag, epc_write[12], epc_tid[24], same, tid_get,mode_flag;
+uint16_t write, cRc, tid_flag, write_flag, epc_write[12], epc_tid[24], same, tid_get, mode_flag;
+uint8_t get_flag,err_flag;
 
 unsigned int uiCrc16Cal(unsigned char const *pucY, unsigned char ucX) {
     unsigned char ucI, ucJ;
@@ -66,9 +67,18 @@ void upper_back(uint8_t command) {
             break;
         case 1:
             i = 0;
-            while (empty == 0 && i < 1000)
-                i++;
             if (empty == 1) {
+                get_flag = 1;
+                err_flag=0;
+            }
+            if (get_flag == 1 && empty == 0) {
+                err_flag++;
+                if (err_flag==3)
+                    get_flag=0;
+            }
+//            while (empty == 0 && i < 10)
+//                i++;
+            if (get_flag == 1) {
                 digit_back = 20;
                 reCmd = 0x01;
                 status = 0x01;
@@ -123,7 +133,7 @@ void upper_back(uint8_t command) {
                 upper[4 + Upper_usart[18] * 2] = GET_LOW_BYTE(cRc);
                 upper[5 + Upper_usart[18] * 2] = GET_HIGH_BYTE(cRc);
             } else {
-                tid_get=0;
+                tid_get = 0;
                 tid_flag = 1;
                 i = 0;
                 j = 0;
@@ -360,7 +370,7 @@ void upper_back(uint8_t command) {
             reCmd = 0x2F;
             status = 0x00;
             mode = Upper_usart[3];
-            mode_flag=1;
+            mode_flag = 1;
             upper[0] = digit_back - 1;
             upper[1] = address_upper;
             upper[2] = reCmd;
